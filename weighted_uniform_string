@@ -1,0 +1,10 @@
+st=input()
+scores = set()
+ctr=1
+for i in range(len(st)):
+    x=ord(st[i])-96
+    ctr = ctr+1 if (i+1 != len(st) and st[i+1] == st[i]) else 1
+    scores.add(x*ctr)
+for i in range(int(input())):
+    n=int(input())
+    print("Yes" if n in scores else "No")
