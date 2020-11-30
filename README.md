@@ -5,7 +5,7 @@ Check out my HackerRank Profile at: https://www.hackerrank.com/anand_kumar15
 
 ## Link List
 ```python
-  class node:
+class node:
     def __init__(self,val):
         self.val=val
         self.next=None
